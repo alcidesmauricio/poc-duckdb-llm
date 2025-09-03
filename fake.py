@@ -33,7 +33,7 @@ produtos_por_categoria = {
 # Number of rows to generate
 # NOTE: 3000_000 equals 300.000 rows (underscore is just a visual separator).
 # Generating this many rows with Faker can be very slow and memory-intensive.
-num_linhas = 10_000
+num_linhas = 3000_000
 
 # Generate data
 data = []
