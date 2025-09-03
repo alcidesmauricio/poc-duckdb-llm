@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+polars
+duckdb
+pandas
+python-multipart
+pyarrow
+dotenv
+openai
+Faker
