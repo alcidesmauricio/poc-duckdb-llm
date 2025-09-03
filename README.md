@@ -63,7 +63,7 @@ Suba um dataset CSV para dentro do sistema (ele será convertido em Parquet):
 
 ```bash
 curl --location 'http://localhost:8000/upload' \
---form 'file=@"/Users/alcides.filho/poc/poc_local/vendas_ecommerce_1M.csv"'
+--form 'file=@"vendas_ecommerce_1M.csv"'
 ```
 
 Saída esperada:
@@ -118,7 +118,7 @@ Resposta esperada:
 
 ## Observações importantes
 
-* Esta PoC **não deve ser usada em produção** sem guardrails de segurança, especialmente contra SQL injection via prompt.
+* Esta POC **não deve ser usada em produção** sem guardrails de segurança, especialmente contra SQL injection via prompt.
 * O objetivo é demonstrar que é possível trabalhar com grandes arquivos CSV/Parquet e interagir com eles em linguagem natural usando LLMs.
 * Para ambientes reais, recomenda-se **adicionar validação de queries, auditoria, limites de execução e camadas de segurança**.
 
